@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+}
+
+h1{
+    margin:40px 0 20px 0;
+
+    color: #fff;
+}
+
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
